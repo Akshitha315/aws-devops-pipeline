@@ -2,6 +2,8 @@
 
 End-to-end AWS Devops CI/CD pipeline using terraform, Jenkins, and Docker to deploy a containerized Node.js app on AWS EC2.
 
+---
+
 # Overview
 This project demonstrates an advanced DevOps pipeline that automates infrastructure provisioning, containerization, and continuous deployment on AWS using modern tools and practices.
 
@@ -12,4 +14,32 @@ This project demonstrates an advanced DevOps pipeline that automates infrastruct
 - Deployment on *AWS EC2* within a custom *VPC*
 - Integration with *S3* for artifact storage
 
+---
+
 # Architecture
+
+The architecture consists of:
+- Source code and Terraform files hosted on GitHub
+- Jenkins automating the CI/CD process
+- Terraform provisioning AWS resources (VPC, EC2, and S3)
+- Docker container running the Node.js app on EC2 instance
+- Artifacts and logs stored in S3 for traceability
+
+---
+
+# Tools & Technologies
+AWS | Terraform | Jenkins | Docker | Node.js | GitHub | CI/CD | Infrastructure as Code (IaC)
+
+---
+
+# Project Files
+
+| File | Purpose |
+|------|----------|
+| providers.tf | Configures AWS provider |
+| variables.tf | Defines Terraform variables |
+| main.tf | Infrastructure creation (EC2, S3, VPC) |
+| outputs.tf | Terraform outputs |
+| Dockerfile | Builds Node.js app image |
+| server.js | Sample Node.js web app |
+| Jenkinsfile | Defines CI/CD pipeline |
