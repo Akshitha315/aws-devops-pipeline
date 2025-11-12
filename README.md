@@ -50,7 +50,7 @@ AWS | Terraform | Jenkins | Docker | Node.js | GitHub | CI/CD | Infrastructure a
 ---
 
 Created and maintained by [Akshitha Narayana](https://www.linkedin.com/in/akshitha-narayana)  
-© 2025 Akshitha Narayana. All rights reserved.
+© 2025 Akshitha Narayana. All rights reserved.  
 Original repository: [github.com/Akshitha315/aws-devops-pipeline](https://github.com/Akshitha315/aws-devops-pipeline)
 | server.js | Sample Node.js web app |
 | Jenkinsfile | Defines CI/CD pipeline |
