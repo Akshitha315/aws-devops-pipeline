@@ -25,7 +25,7 @@ The architecture consists of:
 - Docker container running the Node.js app on EC2 instance
 - Artifacts and logs stored in S3 for traceability
 
-![Architecture Diagram](architecture.png)
+[Architecture Diagram](architecture.png)
 
 ---
 
