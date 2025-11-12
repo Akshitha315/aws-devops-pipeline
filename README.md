@@ -28,7 +28,7 @@ The architecture consists of:
 ---
 
 # Architecture Diagram
-[Architecture Diagram](architecture.png)
+![Architecture Diagram](architecture.png)
 
 ---
 
