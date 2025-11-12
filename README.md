@@ -46,5 +46,10 @@ AWS | Terraform | Jenkins | Docker | Node.js | GitHub | CI/CD | Infrastructure a
 | main.tf | Infrastructure creation (EC2, S3, VPC) |
 | outputs.tf | Terraform outputs |
 | Dockerfile | Builds Node.js app image |
+
+---
+
+📝 Created and maintained by [Akshitha Narayana](https://www.linkedin.com/in/akshitha-narayana)  
+© 2025 Akshitha Narayana. All rights reserved.
 | server.js | Sample Node.js web app |
 | Jenkinsfile | Defines CI/CD pipeline |
